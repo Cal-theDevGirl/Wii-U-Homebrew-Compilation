@@ -1,97 +1,82 @@
 💾sd:
-
- ┗ 📂wiiu
-
-   ┣ 📂apps
-
-   ┃ ┣ 📂homebrew_appstore
-
-   ┃ ┃ ┗ 📜appstore.wuhb
-
-   ┃ ┣ 📂bloopair_pair_menu
-
-   ┃ ┃ ┗ 📜bloopair_pair_menu.wuhb
-
-   ┃ ┣ 📜PayloadLoaderInstaller.wuhb
-
-   ┃ ┗ (All other apps should be here too)
-
-   ┣ 📂environments
-
-   ┃ ┣ 📂installer
-
-   ┃ ┃ ┗ 📂modules
-
-   ┃ ┃   ┗ 📂setup
-
-   ┃ ┃     ┣ 📜00_mocha.rpx
-
-   ┃ ┃     ┗ 📜90_launch_installer.rpx
-
-   ┃ ┗ 📂Aroma
-
-   ┃   ┣ 📂plugins
-
-   ┃   ┃   ┣ 📜AromaBasePlugin.wps
-
-   ┃   ┃   ┣ 📜drc_region_free.wps
-
-   ┃   ┃   ┣ 📜regionfree.wps
-
-   ┃   ┃   ┣ 📜ftpiiu.wps
-
-   ┃   ┃   ┣ 📜homebrew_on_menu.wps
-
-   ┃   ┃   ┣ 📜screenshot.wps
-
-   ┃   ┃   ┗ 📜sdcafiine.wps
-
-   ┃   ┣ 📜AromaBaseModule.wms
-
-   ┃   ┣ 📜ContentRedirectionModule.wms
-
-   ┃   ┣ 📜CURLWrapperModule.wms
-
-   ┃   ┣ 📜FunctionPatcherModule.wms
-
-   ┃   ┣ 📜KernelModule.wms
-
-   ┃   ┣ 📜MemoryMappingModule.wms
-
-   ┃   ┣ 📜NotificationModule.wms
-
-   ┃   ┣ 📜PatchMemoryRelocationsModule.wms
-
-   ┃   ┣ 📜PluginBackend.wms
-
-   ┃   ┣ 📜RPXLoadingModule.wms
-
-   ┃   ┣ 📜SDHotSwapModule.wms
-
-   ┃   ┣ 📜WUHBUtilsModule.wms
-
-   ┃   ┃ ┗ 📂setup
-
-   ┃   ┃   ┣ 📜00_mocha.rpx
-
-   ┃   ┃   ┣ 📜10_wums_loader.rpx
-
-   ┃   ┃   ┣ 📜30_bloopair.rpx
-
-   ┃   ┃   ┗ 📜99_autoboot.rpx
-
-   ┃   ┗ 📜root.rpx
-
-   ┣ 📂payloads
-
-   ┃ ┣ 📂default
-
-   ┃ ┃ ┗ 📜payload.elf
-
-   ┃ ┗ 📂nanddumper
-
-   ┃   ┗ 📜payload.elf
-
-   ┣ 📜payload.rpx
-
-   ┗ 📜payload.elf
+ ┣📂apps
+ ┃┣ 📂CleanRip
+ ┃┣ 📂d2x-cios-installer
+ ┃┣ 📂ftpii
+ ┃┣ 📂Homebrew_Browser
+ ┃┣ 📂Nintendont
+ ┃┣ 📂Patched IOS80 installer for vWii
+ ┃┣ 📂riivolution
+ ┃┣ 📂Savegame Manager
+ ┃┗ 📂WiiFlow
+ ┣📂install
+ ┃┗ 📂Nintendont Installer(WiiU to vWii)
+ ┣📂wiiflow
+ ┃┣ 📂languages
+ ┃┣ 📂plugins_data
+ ┃┗ 📂themes_lite
+ ┣📂controllers
+ ┣📂wbfs
+ ┣📂wiiu
+ ┃┣ 📂apps
+ ┃┃ ┣ 📂bloopair_pair_menu
+ ┃┃ ┃ ┗ 📜bloopair_pair_menu.wuhb
+ ┃┃ ┣ 📂decaffenator
+ ┃┃ ┃ ┗ 📜decaffenator.rpx
+ ┃┃ ┣ 📂dumpling
+ ┃┃ ┃ ┗ 📜dumpling.wuhb
+ ┃┃ ┣ 📂Nuspli
+ ┃┃ ┃ ┗ 📜Nuspli.wuhb
+ ┃┃ ┣ 📂vwii-compat-installer
+ ┃┃ ┃ ┗ 📜vwii-compat-installer.elf
+ ┃┃ ┣ 📂WiiU-Shell
+ ┃┃ ┃ ┗ 📜wiiu-shell.wuhb
+ ┃┃ ┣ 📂wudd
+ ┃┃ ┃ ┗ 📜wudd.wuhb
+ ┃┃ ┣ 📂wup_installer_gx2
+ ┃┃ ┃ ┗ 📜wup_installer_gx2.wuhb
+ ┃┃ ┣ 📜AromaUpdater.wuhb
+ ┃┃ ┗ (All other apps should be here too)
+ ┃┣ 📂environments
+ ┃┃ ┣ 📂vWii Homebrew
+ ┃┃ ┃ ┣ 📜root.rpx
+ ┃┃ ┃ ┗ 📂modules
+ ┃┃ ┃   ┗ 📂setup
+ ┃┃ ┃     ┣ 📜00_mocha.rpx
+ ┃┃ ┃     ┗ 📜50_hbl_installer.rpx
+ ┃┃ ┃     ┗ 📜99_autoboot.rpx
+ ┃┃ ┗ 📂Aroma
+ ┃┃     ┣ 📂Plugins
+ ┃┃     ┃ ┣  📜Aroma_Base_Plugin.wps
+ ┃┃     ┃ ┣  📜drc_region_free.wps
+ ┃┃     ┃ ┣  📜ftpiiu.wps
+ ┃┃     ┃ ┣  📜homebrew_on_menu.wps
+ ┃┃     ┃ ┣  📜region_free.wps
+ ┃┃     ┃ ┣  📜screenshot.wps
+ ┃┃     ┃ ┗  📜sdcafiine.wps
+ ┃┃     ┣ 📂modules
+ ┃┃     ┃ ┣  📜AromaBasemodule.wms
+ ┃┃     ┃ ┣  📜ContentRedirectionModule.wms
+ ┃┃     ┃ ┣  📜CURLWrapperModule.wms
+ ┃┃     ┃ ┣  📜FunctionPatcherModule.wms
+ ┃┃     ┃ ┣  📜KernelModule.wms
+ ┃┃     ┃ ┣  📜MemoryMappingModule.wms
+ ┃┃     ┃ ┣  📜NotificationModule.wms
+ ┃┃     ┃ ┣  📜PatchMemoryRelocationsModule.wms
+ ┃┃     ┃ ┣  📜PluginBackend.wms
+ ┃┃     ┃ ┣  📜RPXLoadingModule.wms
+ ┃┃     ┃ ┣  📜SDHotSwapModule.wms
+ ┃┃     ┃ ┣  📜WUHBUtilsModule.wms
+ ┃┃     ┃ ┗ 📂setup
+ ┃┃     ┃     ┣ 📜00_mocha.rpx
+ ┃┃     ┃     ┣ 📜10_wums_loader.rpx
+ ┃┃     ┃     ┣ 📜30_bloopair.rpx
+ ┃┃     ┃     ┗ 📜99_autoboot.rpx
+ ┃┃     ┗ 📜root.rpx
+ ┃┣ 📂payloads
+ ┃┃ ┣ 📂default
+ ┃┃ ┃ ┗ 📜payload.elf
+ ┃┃ ┗ 📂nanddumper
+ ┃┃     ┗ 📜payload.elf
+ ┃┣ 📜payload.rpx
+ ┃┗ 📜payload.elf
