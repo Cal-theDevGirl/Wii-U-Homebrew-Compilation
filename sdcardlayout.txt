@@ -1,0 +1,97 @@
+💾sd:
+
+ ┗ 📂wiiu
+
+   ┣ 📂apps
+
+   ┃ ┣ 📂homebrew_appstore
+
+   ┃ ┃ ┗ 📜appstore.wuhb
+
+   ┃ ┣ 📂bloopair_pair_menu
+
+   ┃ ┃ ┗ 📜bloopair_pair_menu.wuhb
+
+   ┃ ┣ 📜PayloadLoaderInstaller.wuhb
+
+   ┃ ┗ (All other apps should be here too)
+
+   ┣ 📂environments
+
+   ┃ ┣ 📂installer
+
+   ┃ ┃ ┗ 📂modules
+
+   ┃ ┃   ┗ 📂setup
+
+   ┃ ┃     ┣ 📜00_mocha.rpx
+
+   ┃ ┃     ┗ 📜90_launch_installer.rpx
+
+   ┃ ┗ 📂Aroma
+
+   ┃   ┣ 📂plugins
+
+   ┃   ┃   ┣ 📜AromaBasePlugin.wps
+
+   ┃   ┃   ┣ 📜drc_region_free.wps
+
+   ┃   ┃   ┣ 📜regionfree.wps
+
+   ┃   ┃   ┣ 📜ftpiiu.wps
+
+   ┃   ┃   ┣ 📜homebrew_on_menu.wps
+
+   ┃   ┃   ┣ 📜screenshot.wps
+
+   ┃   ┃   ┗ 📜sdcafiine.wps
+
+   ┃   ┣ 📜AromaBaseModule.wms
+
+   ┃   ┣ 📜ContentRedirectionModule.wms
+
+   ┃   ┣ 📜CURLWrapperModule.wms
+
+   ┃   ┣ 📜FunctionPatcherModule.wms
+
+   ┃   ┣ 📜KernelModule.wms
+
+   ┃   ┣ 📜MemoryMappingModule.wms
+
+   ┃   ┣ 📜NotificationModule.wms
+
+   ┃   ┣ 📜PatchMemoryRelocationsModule.wms
+
+   ┃   ┣ 📜PluginBackend.wms
+
+   ┃   ┣ 📜RPXLoadingModule.wms
+
+   ┃   ┣ 📜SDHotSwapModule.wms
+
+   ┃   ┣ 📜WUHBUtilsModule.wms
+
+   ┃   ┃ ┗ 📂setup
+
+   ┃   ┃   ┣ 📜00_mocha.rpx
+
+   ┃   ┃   ┣ 📜10_wums_loader.rpx
+
+   ┃   ┃   ┣ 📜30_bloopair.rpx
+
+   ┃   ┃   ┗ 📜99_autoboot.rpx
+
+   ┃   ┗ 📜root.rpx
+
+   ┣ 📂payloads
+
+   ┃ ┣ 📂default
+
+   ┃ ┃ ┗ 📜payload.elf
+
+   ┃ ┗ 📂nanddumper
+
+   ┃   ┗ 📜payload.elf
+
+   ┣ 📜payload.rpx
+
+   ┗ 📜payload.elf
